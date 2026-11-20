@@ -48,10 +48,10 @@ export default function App() {
            <div className="card rounded-3xl p-8 text-center h-full shadow-sm hover:-translate-y-2 transition-transform duration-500">
             <h4 className="script text-6xl acc mt-2">Nuestros Padres</h4>
             <h2 className="text-3xl acc mt-2">Novia</h2>
-            <p className="h1 tracking-[.4em] uppercase text-sm mute">Melda Campos Bañuelos</p>      
+            <p className="h1 tracking-[.4em] uppercase text-sm mute">Imelda Campos Bañuelos</p>      
             <p className="h1 tracking-[.4em] uppercase text-sm mute">Pedro Aguilera Márquez</p>
             <h2 className="text-3xl acc mt-2">Novio</h2>
-            <p className="h1 tracking-[.4em] uppercase text-sm mute">Nacy Ortiz</p>
+            <p className="h1 tracking-[.4em] uppercase text-sm mute">Nancy Ortiz</p>
             <p className="h1 tracking-[.4em] uppercase text-sm mute">Jaime Martínez</p>
 
 
