@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{--bg:#faf6ef;--bg2:#f1e8d8;--card:#ffffff;--ink:#4a3f33;--mute:#8a7a67;--accent:#b89b72;--line:#e4d7c1;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#2b251f;--bg2:#352d25;--card:#3d342b;--ink:#f3eadb;--mute:#c4b49c;--accent:#d2b88e;--line:#52473a;color-scheme:dark}}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:'Cormorant Garamond',Georgia,serif;font-size:19px;overflow-x:hidden}
+.script{font-family:'Great Vibes','Brush Script MT',cursive}
+.bg2{background:var(--bg2)}.card{background:var(--card);border:1px solid var(--line)}
+.mute{color:var(--mute)}.acc{color:var(--accent)}
+.btn{background:var(--accent);color:#fff;letter-spacing:.15em;transition:transform .3s,box-shadow .3s}
+.btn:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(184,155,114,.45)}
+.rv{opacity:0;transform:translateY(34px);transition:opacity 1s ease,transform 1s ease}
+.rv.in{opacity:1;transform:none}
+@keyframes fall{0%{transform:translate3d(0,-10vh,0) rotate(0)}100%{transform:translate3d(var(--dx),110vh,0) rotate(540deg)}}
+.petal{position:absolute;top:0;border-radius:150% 0 150% 0;background:var(--accent);opacity:.35;animation:fall linear infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+.float{animation:float 5s ease-in-out infinite}
+@keyframes pop{0%{transform:scale(.7);opacity:0}100%{transform:scale(1);opacity:1}}
+.pop{animation:pop .6s ease both}
+@keyframes fadeUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+.h1{animation:fadeUp 1.4s .2s ease both}.h2{animation:fadeUp 1.4s .6s ease both}.h3{animation:fadeUp 1.4s 1s ease both}
+.tile{transition:transform .6s ease,box-shadow .6s ease;overflow:hidden}
+.tile:hover{transform:scale(1.04) rotate(-1deg);box-shadow:0 18px 40px rgba(74,63,51,.25)}
+.tile svg,.tile img{transition:transform .8s ease}.tile:hover svg,.tile:hover img{transform:scale(1.12)}
+.hero{background:radial-gradient(ellipse at 50% 20%,var(--card) 0%,var(--bg) 55%,var(--bg2) 100%)}
+.line{height:1px;background:linear-gradient(90deg,transparent,var(--accent),transparent)}
+input,select{background:var(--bg);border:1px solid var(--line);color:var(--ink)}
+input:focus,select:focus{outline:2px solid var(--accent)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
