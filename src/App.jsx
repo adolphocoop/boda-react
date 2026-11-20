@@ -43,6 +43,23 @@ export default function App() {
           ))}
         </div>
       </section >
+      <section className="hero relative min-h-screen flex flex-col items-center justify-center text-center px-6 py-16">
+           <div>
+           <div className="card rounded-3xl p-8 text-center h-full shadow-sm hover:-translate-y-2 transition-transform duration-500">
+            <h4 className="script text-6xl acc mt-2">Nuestros Padres</h4>
+            <h2 className="text-3xl acc mt-2">Novia</h2>
+            <p className="h1 tracking-[.4em] uppercase text-sm mute">Melda Campos Bañuelos</p>      
+            <p className="h1 tracking-[.4em] uppercase text-sm mute">Pedro Aguilera Márquez</p>
+            <h2 className="text-3xl acc mt-2">Novio</h2>
+            <p className="h1 tracking-[.4em] uppercase text-sm mute">Nacy Ortiz</p>
+            <p className="h1 tracking-[.4em] uppercase text-sm mute">Jaime Martínez</p>
+
+
+              </div>
+
+        </div>
+      </section>
+
        <section className="px-6 py-24">
         <div className="max-w-2xl mx-auto text-center card rounded-3xl px-8 py-12 sm:px-14 shadow-sm">
           <Reveal>
@@ -103,8 +120,8 @@ export default function App() {
         <Reveal className="text-center mb-12"><h2 className="script text-6xl acc">Regalos</h2></Reveal> 
         <div>
            <div className="card rounded-3xl p-8 text-center h-full shadow-sm hover:-translate-y-2 transition-transform duration-500">
-          <p style={{ textAlign: "center" }}>Su presencia es nuestro mejor regalo; si desean tener un detalle, agradecemos su aporte en efectivo.</p>
                 
+          <p style={{ textAlign: "center" }}>Su presencia es nuestro mejor regalo; si desean tener un detalle, agradecemos su aporte en efectivo o transferencia.</p>
               </div>
 
         </div>
