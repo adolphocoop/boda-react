@@ -103,7 +103,7 @@ export default function App() {
         <Reveal className="text-center mb-12"><h2 className="script text-6xl acc">Regalos</h2></Reveal> 
         <div>
            <div className="card rounded-3xl p-8 text-center h-full shadow-sm hover:-translate-y-2 transition-transform duration-500">
-          <p style={{ textAlign: "center" }}>Su presencia es nuestro mejor regalo; si desean tener un detalle, agradecemos su aporte en efectivo o transferencia.</p>
+          <p style={{ textAlign: "center" }}>Su presencia es nuestro mejor regalo; si desean tener un detalle, agradecemos su aporte en efectivo.</p>
                 
               </div>
 
